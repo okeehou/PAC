@@ -874,6 +874,7 @@ var domains = {
   "google.com.au": 1,
   "google.com.my": 1,
   "google.com.sg": 1,
+  "google.com.vn": 1,
   "googleadservices.com": 1, 
   "googleapis.com": 1, 
   "googlecode.com": 1, 
