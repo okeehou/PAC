@@ -1,19 +1,3 @@
-/*
-*	pac template file
-*	generation time: 2016-10-25 14:44:34
-*	what is pac?: http://51.ruyo.net/p/1539.html
-*	free pac web: https://pac.jike.info
-*	create by malaohu
-*/
-
-
-/*
-*	please replace HTTPS nauseous-bhaskara-4673.arukascloud.io to your url
-*	example:
-*	arukas endpoint : https://fervent-booth-2577.arukascloud.io
-*	var proxy = "HTTPS fervent-booth-2577.arukascloud.io;";
-*/
-
 var proxy = "HTTPS nauseous-bhaskara-4673.arukascloud.io;";
 
 var domains = {
