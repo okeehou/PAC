@@ -1,0 +1,44 @@
+net_type="TCP"
+cipher="AES_256_GCM"
+password="1ze2VoN94i"
+#server_port="18936"
+server_addr="51.68.202.202:18936" # replce it to remote server
+http_proxy=":10001"               # eg: 192.168.0.2:8080
+dns_server="8.8.8.8"                    # Keep empty for dynamic setting from net env
+client_ip="127.0.0.1"            # listen the IP, dns target is the IP
+# clear_dns_cache="killall -HUP mDNSResponder"
+blocklist=[
+    "**.google.com", # google
+    "**.goo.gl",
+    "**.googleusercontent.com",
+    "**.googleapis.com",
+    "*.googlesource.com",
+    "**.youtube.com", # youtube
+    "**.ytimg.com",
+    "**.ggpht.com",
+    "**.googlevideo.com",
+    "**.facebook.com", # facebook
+    "**.fbcdn.net",
+    "**.twitter.com", # twitter
+    "**.twimg.com",
+    "**.blogspot.com", # blogspot
+    "**.appspot.com",
+    "**.wikipedia.org", # wikipeida
+    "*.cloudfront.net",
+    "**.amazon.com",
+    "**.amazonaws.com",
+    "*.githubusercontent.com",
+    "*.github.com",
+    "*.github.io",
+    "**.mozilla.com",
+    "**.mozilla.net",
+    "**.akadns.net",
+]
+whitelist=[
+    "iamp.*.*.*",
+    "iamp.*.*",
+    "imap-mail.outlook.com",
+    "**.qq.com",
+    "**.baidu.com",
+]
+verbose=0
